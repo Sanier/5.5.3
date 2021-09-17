@@ -23,6 +23,7 @@ namespace _5._5._3
                 modife = modife.Remove(0,2);
             }
 
+            Console.BackgroundColor = (ConsoleColor)deep;
             Console.WriteLine("... " + modife);
 
             if (deep > 1)
